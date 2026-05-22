@@ -20,7 +20,7 @@ public class Dijkstra {
                         u = k;
                 }
             }
-            visitados[u] = true;//El nodo se marca como visitado
+            visitados[u] = true;//El nodo se marca como
             for (Arista a : g.adj[u]) {
                 //Para cada nodo conectado se guarda su destino y peso
                 int v = a.destino;

@@ -5,7 +5,7 @@ public class Arista {
     int peso;
     
     public Arista(int origen, int destino, int peso){
-        this.origen = origen;
+        this.origen = origen;//hola
         this.destino = destino;
         this.peso = peso;
     }
